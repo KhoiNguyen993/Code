@@ -1,0 +1,22 @@
+.logo {
+  background-color: white;
+  height: 230px;
+  background-image: url(./img/jakes-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  background-color: black;
+  padding: 20px;
+}
+
+.left,
+.center,
+.right {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
