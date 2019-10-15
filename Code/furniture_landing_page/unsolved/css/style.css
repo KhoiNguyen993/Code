@@ -1,16 +1,43 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Grid CSS */
-
+#heroGrid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+    "featuredProduct secondaryProduct"
+    "featuredProduct CTA";
+}
 
 /* Category Grid CSS */
-
-
-
-
+#featuredProduct {
+  grid-area: featuredProduct;
+  background-image: url(/Code/furniture_landing_page/unsolved/images/furniture1.png);
+}
+#secondaryProduct {
+  grid-area: secondaryProduct;
+  background-image: url(/Code/furniture_landing_page/unsolved/images/furniture2@2x.png);
+}
+#CTA {
+  background-image: url(/Code/furniture_landing_page/unsolved/images/woodbg.png);
+  grid-area: CTA;
+  justify-content: 0px 5%;
+  cursor: pointer;
+}
 /* Navigation CSS */
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
 /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
 #navBar {
   display: flex;
@@ -42,7 +69,7 @@ body {
   cursor: pointer;
 }
 .highlight {
-  color: #FF6200;
+  color: #ff6200;
   font-weight: 700;
 }
 
@@ -51,7 +78,7 @@ body {
 h2 {
   font-size: 60px;
   margin: 0px 0px;
-  color: #FF6200;
+  color: #ff6200;
 }
 
 h3 {
@@ -66,6 +93,15 @@ h4 {
   font-size: 22px;
 }
 
+#headline {
+  padding: 20px;
+  border-bottom: 5px solid #ff6200;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  z-index: 1;
+}
 
 #headline p {
   max-width: 350px;
@@ -73,4 +109,23 @@ h4 {
   font-weight: 300;
   margin: 0px 0px;
   color: #636364;
+}
+
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin: 50px auto;
+}
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px 300px 300px 300px 300px;
+  grid-template-areas:
+    "One"
+    "Two"
+    "Three"
+    "Four"
+    "Five";
 }
