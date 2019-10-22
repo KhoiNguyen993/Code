@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+  ​
   <head>
+    ​
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    ​
     <!-- Bootstrap CSS -->
+    ​
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -16,18 +19,20 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Anton&display=swap"
+      href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/index.css" />
-
+    ​ ​
     <title>Our Custom Template</title>
   </head>
+  ​
   <body>
+    ​
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
       <a class="navbar-brand" href="#"
-        ><img src="./images/acoustic-guitar.png" alt="guitar" />Rock Nation</a
+        ><img src="images/acoustic-guitar.png" />Rock Nation</a
       >
       <button
         class="navbar-toggler"
@@ -63,44 +68,45 @@
               Near You
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Venues</a>
-              <a class="dropdown-item" href="#">Artists</a>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Upcoming Acts</a>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
           <li class="nav-item">
-            <a href="#" class="btn btn-primary btn-lg navCTA" role="button"
+            <a class="btn btn-primary btn-lg navCTA" href="#" role="button"
               >Buy Tickets</a
             >
           </li>
         </ul>
+        ​
       </div>
     </nav>
     <!-- End navigation bar -->
-
+    ​
     <!-- Jumbotron -->
     <div class="jumbotron rockBackground">
       <div class="jumboCopy">
-        <h1 class="display-4">It's TIme to Rock</h1>
+        <h1 class="display-4">It's Time to Rock</h1>
         <p class="lead">
           Rock Nation bring you the most headbanging shows on the planet. Click
-          below to find tickets for your favorite bands
+          below to find tickets for your favorite bands.
         </p>
-        <hr class="my-4" />
-
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Buy Tickets</a>
       </div>
+      ​
     </div>
     <!-- End jumbotron -->
-
+    ​
     <!-- Cards -->
-    <div class="container-fluid">
-      <div class="row">
+    <div class="container-fluid container">
+      <h2 class="sectionHeading">Shows Near You</h2>
+      <div class="row showsNear">
         <!-- Card 1 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/1_card.png" class="card-img-top" alt="..." />
+            <img src="images/show3.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
@@ -112,11 +118,11 @@
           </div>
         </div>
         <!-- End card 1 -->
-
+        ​
         <!-- Card 2 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/2_card.png" class="card-img-top" alt="..." />
+            <img src="images/show1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
@@ -128,11 +134,11 @@
           </div>
         </div>
         <!-- End card 2 -->
-
+        ​
         <!-- Card 3 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/3_card.png" class="card-img-top" alt="..." />
+            <img src="images/show2.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
@@ -144,20 +150,22 @@
           </div>
         </div>
         <!-- End card 3 -->
+        ​
       </div>
     </div>
     <!-- End cards -->
-
+    ​
     <!-- Content -->
-    <div class="container-fluid">
+    <div class="container-fluid content">
+      <h2 class="sectionHeading">Why we're better</h2>
       <!-- Row 1 -->
-      <div class="row">
+      <div class="row valueProp">
         <div class="sideAccent"></div>
-        <div class="col-3">
+        <div class="imageContainer col-3">
           <img src="images/assistance.png" />
         </div>
-        <div class="col-8">
-          <h3>Title 1</h3>
+        <div class="text col-8">
+          <h3>We are always here to help!</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod Lorem ipsum dolor sit amet.
@@ -166,12 +174,48 @@
         </div>
       </div>
       <!-- End row 1 -->
+      ​
+      <!-- Row 2 -->
+      <div class="row valueProp">
+        <div class="sideAccent"></div>
+        <div class="imageContainer col-3">
+          <img src="images/refund.png" />
+        </div>
+        <div class="text col-8">
+          <h3>The best prices!</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod Lorem ipsum dolor sit amet.
+          </p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <!-- End row 2 -->
+      ​
+      <!-- Row 3 -->
+      <div class="row valueProp">
+        <div class="sideAccent"></div>
+        <div class="imageContainer col-3">
+          <img src="images/mail-box.png" />
+        </div>
+        <div class="text col-8">
+          <h3>The best shows!</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod Lorem ipsum dolor sit amet.
+          </p>
+          <a href="#" class="btn btn-primary">More shows</a>
+        </div>
+      </div>
+      <!-- End row 3 -->
+      ​ ​
     </div>
     <!-- End content -->
-
+    ​
     <!-- Footer -->
-    <footer>
+    <footer class="emailContain">
       <form>
+        <h3>Join Our Mailing List</h3>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input
@@ -186,7 +230,7 @@
       </form>
     </footer>
     <!-- End footer -->
-
+    ​
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -205,4 +249,5 @@
       crossorigin="anonymous"
     ></script>
   </body>
+  ​
 </html>
