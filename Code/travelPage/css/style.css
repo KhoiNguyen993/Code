@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.customNav {
+  color: white;
+  justify-content: space-between;
+}
+.nav-item .navLinks {
+  vertical-align: middle;
+}
+.jumbotron,
+nav {
+  background-image: url(../images/headerLg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+.jumbotron {
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
